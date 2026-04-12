@@ -1,5 +1,6 @@
 aws_region              = "us-east-1"
 project_id              = "cmtr-znhvv6bs"
+project_name            = "epam-tf-lab"
 aws_keypair_name        = "cmtr-znhvv6bs-keypair"
 aws_instance_name       = "cmtr-znhvv6bs-ec2"
 aws_security_group_name = "cmtr-znhvv6bs-sg"

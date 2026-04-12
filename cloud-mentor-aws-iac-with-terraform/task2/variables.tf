@@ -8,6 +8,11 @@ variable "project_id" {
   type        = string
 }
 
+variable "project_name" {
+  description = "Project name provided by the course platform. Used for tagging."
+  type        = string
+}
+
 variable "aws_keypair_name" {
   description = "Name of the AWS key pair resource. Injected by the course platform."
   type        = string
