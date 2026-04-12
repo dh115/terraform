@@ -1,0 +1,7 @@
+aws_region              = "us-east-1"
+project_id              = "cmtr-znhvv6bs"
+aws_keypair_name        = "cmtr-znhvv6bs-keypair"
+aws_instance_name       = "cmtr-znhvv6bs-ec2"
+aws_security_group_name = "cmtr-znhvv6bs-sg"
+instance_ami            = "ami-0c3389a4fa5bddaad"
+instance_type           = "t3.micro"
