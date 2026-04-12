@@ -1,9 +1,3 @@
-# Provider configuration.
-# Region is driven by variable so the config is not hardcoded to a specific environment.
-provider "aws" {
-  region = var.aws_region
-}
-
 # Common tags applied to all resources.
 # Using locals ensures a single source of truth — update here, propagates everywhere.
 locals {

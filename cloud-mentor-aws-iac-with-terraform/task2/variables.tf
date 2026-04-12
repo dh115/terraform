@@ -35,6 +35,6 @@ variable "instance_type" {
 }
 
 variable "ssh_key" {
-  description = "Public SSH key for EC2 access. Must be injected via TF_VAR_ssh_key environment variable — never stored in .tfvars or version control."
+  description = "Public SSH key for EC2 access." # Must be injected via TF_VAR_ssh_key environment variable — never stored in .tfvars or version control."
   type        = string
 }
