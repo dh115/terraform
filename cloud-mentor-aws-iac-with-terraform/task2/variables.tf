@@ -31,7 +31,6 @@ variable "instance_ami" {
 variable "instance_type" {
   description = "EC2 instance type."
   type        = string
-  default     = "t3.micro"
 }
 
 variable "ssh_key" {
