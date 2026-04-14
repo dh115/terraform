@@ -1,8 +1,3 @@
-# Provider configuration — no backend block, Terraform uses local backend by default
-provider "aws" {
-  region = var.aws_region
-}
-
 # Reference the pre-existing VPC created by the course platform via CloudFormation.
 # We use a data source because Terraform does not own this resource.
 data "aws_vpc" "main" {
